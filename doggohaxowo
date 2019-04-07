@@ -1,0 +1,281 @@
+-- Farewell Infortality.
+-- Version: 2.82
+-- Instances:
+local ScreenGui = Instance.new("ScreenGui")
+local Box = Instance.new("Frame")
+local LeftArm = Instance.new("TextButton")
+local RightArm = Instance.new("TextButton")
+local RightLeg = Instance.new("TextButton")
+local LeftLeg = Instance.new("TextButton")
+local Torso = Instance.new("TextButton")
+local Head = Instance.new("TextButton")
+local TextButton = Instance.new("TextButton")
+local OpenAndClose = Instance.new("ImageButton")
+local TextLabel = Instance.new("TextLabel")
+--Properties:
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Box.Name = "Box"
+Box.Parent = ScreenGui
+Box.BackgroundColor3 = Color3.new(1, 1, 1)
+Box.BorderColor3 = Color3.new(0.0470588, 0.0745098, 0.0941177)
+Box.BorderSizePixel = 12
+Box.Position = UDim2.new(0, 0, 0.262257725, 0)
+Box.Size = UDim2.new(0, 215, 0, 329)
+Box.Style = Enum.FrameStyle.RobloxRound
+
+LeftArm.Name = "LeftArm"
+LeftArm.Parent = Box
+LeftArm.BackgroundColor3 = Color3.new(0, 0, 0)
+LeftArm.BackgroundTransparency = 0.89999997615814
+LeftArm.BorderColor3 = Color3.new(0.968628, 0.0392157, 1)
+LeftArm.BorderSizePixel = 3
+LeftArm.Position = UDim2.new(-0.0148734283, 0, 0.359977484, 0)
+LeftArm.Size = UDim2.new(0, 46, 0, 93)
+LeftArm.Font = Enum.Font.SourceSans
+LeftArm.Text = "L"
+LeftArm.TextColor3 = Color3.new(0, 0, 0)
+LeftArm.TextSize = 14
+
+RightArm.Name = "RightArm"
+RightArm.Parent = Box
+RightArm.BackgroundColor3 = Color3.new(0, 0, 0)
+RightArm.BackgroundTransparency = 0.89999997615814
+RightArm.BorderColor3 = Color3.new(0.968628, 0.0392157, 1)
+RightArm.BorderSizePixel = 3
+RightArm.Position = UDim2.new(0.774997532, 0, 0.366086125, 0)
+RightArm.Size = UDim2.new(0, 45, 0, 94)
+RightArm.Font = Enum.Font.SourceSans
+RightArm.Text = "R"
+RightArm.TextColor3 = Color3.new(0, 0, 0)
+RightArm.TextSize = 14
+
+RightLeg.Name = "RightLeg"
+RightLeg.Parent = Box
+RightLeg.BackgroundColor3 = Color3.new(0, 0, 0)
+RightLeg.BackgroundTransparency = 0.89999997615814
+RightLeg.BorderColor3 = Color3.new(0.968628, 0.0392157, 1)
+RightLeg.BorderSizePixel = 3
+RightLeg.Position = UDim2.new(0.243301615, 0, 0.669990301, 0)
+RightLeg.Size = UDim2.new(0, 44, 0, 94)
+RightLeg.Font = Enum.Font.SourceSans
+RightLeg.Text = "R"
+RightLeg.TextColor3 = Color3.new(0, 0, 0)
+RightLeg.TextSize = 14
+
+LeftLeg.Name = "LeftLeg"
+LeftLeg.Parent = Box
+LeftLeg.BackgroundColor3 = Color3.new(0, 0, 0)
+LeftLeg.BackgroundTransparency = 0.89999997615814
+LeftLeg.BorderColor3 = Color3.new(0.968628, 0.0392157, 1)
+LeftLeg.BorderSizePixel = 3
+LeftLeg.Position = UDim2.new(0.506609321, 0, 0.671866834, 0)
+LeftLeg.Size = UDim2.new(0, 45, 0, 94)
+LeftLeg.Font = Enum.Font.SourceSans
+LeftLeg.Text = "L"
+LeftLeg.TextColor3 = Color3.new(0, 0, 0)
+LeftLeg.TextSize = 14
+
+Torso.Name = "Torso"
+Torso.Parent = Box
+Torso.BackgroundColor3 = Color3.new(0, 0, 0)
+Torso.BackgroundTransparency = 0.89999997615814
+Torso.BorderColor3 = Color3.new(0.968628, 0.0392157, 1)
+Torso.BorderSizePixel = 3
+Torso.Position = UDim2.new(0.245351866, 0, 0.360695064, 0)
+Torso.Size = UDim2.new(0, 96, 0, 96)
+Torso.Font = Enum.Font.SourceSans
+Torso.Text = "T"
+Torso.TextColor3 = Color3.new(0, 0, 0)
+Torso.TextSize = 14
+
+Head.Name = "Head"
+Head.Parent = Box
+Head.BackgroundColor3 = Color3.new(0, 0, 0)
+Head.BackgroundTransparency = 0.89999997615814
+Head.BorderColor3 = Color3.new(0.968628, 0.0392157, 1)
+Head.BorderSizePixel = 3
+Head.Position = UDim2.new(0.347893983, 0, 0.131033033, 0)
+Head.Size = UDim2.new(0, 63, 0, 62)
+Head.Font = Enum.Font.SourceSans
+Head.Text = "H"
+Head.TextColor3 = Color3.new(0, 0, 0)
+Head.TextSize = 14
+
+TextButton.Parent = Box
+TextButton.BackgroundColor3 = Color3.new(1, 1, 1)
+TextButton.Position = UDim2.new(-0.0475257635, 0, 1.78274226, 0)
+TextButton.Size = UDim2.new(0, 77, 0, 36)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "kill script"
+TextButton.TextColor3 = Color3.new(1, 0, 0)
+TextButton.TextSize = 20
+
+OpenAndClose.Name = "OpenAndClose"
+OpenAndClose.Parent = ScreenGui
+OpenAndClose.BackgroundColor3 = Color3.new(1, 1, 1)
+OpenAndClose.Position = UDim2.new(0.00308638811, 0, 0.70147419, 0)
+OpenAndClose.Size = UDim2.new(0, 29, 0, 27)
+OpenAndClose.Style = Enum.ButtonStyle.RobloxRoundDefaultButton
+OpenAndClose.Image = "rbxassetid://133720698"
+
+TextLabel.Parent = ScreenGui
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 2
+TextLabel.Position = UDim2.new(0.00533867208, 0, 0.261425018, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.Cartoon
+TextLabel.Text = "DoggoMemes V1"
+TextLabel.TextColor3 = Color3.new(1, 1, 1)
+TextLabel.TextSize = 25
+-- Scripts:
+function SCRIPT_UJER87_FAKESCRIPT() -- LeftArm.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = LeftArm
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		
+		game.Players.LocalPlayer.Character["Left Arm"]:Remove()
+		
+		
+		
+		
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_UJER87_FAKESCRIPT))
+function SCRIPT_WJNV79_FAKESCRIPT() -- RightArm.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = RightArm
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		
+		game.Players.LocalPlayer.Character["Right Arm"]:Remove()
+		
+		
+		
+		
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_WJNV79_FAKESCRIPT))
+function SCRIPT_OXAI79_FAKESCRIPT() -- RightLeg.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = RightLeg
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		
+		game.Players.LocalPlayer.Character["Right Leg"]:Remove()
+		
+		
+		
+		
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_OXAI79_FAKESCRIPT))
+function SCRIPT_ADLA80_FAKESCRIPT() -- LeftLeg.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = LeftLeg
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		
+		game.Players.LocalPlayer.Character["Left Leg"]:Remove()
+		
+		
+		
+		
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_ADLA80_FAKESCRIPT))
+function SCRIPT_HBDJ73_FAKESCRIPT() -- Torso.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = Torso
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		
+		game.Players.LocalPlayer.Character["Torso"]:Remove()
+		
+		
+		
+		
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_HBDJ73_FAKESCRIPT))
+function SCRIPT_VQZW86_FAKESCRIPT() -- Head.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = Head
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		
+		game.Players.LocalPlayer.Character["Head"]:Remove()
+		
+		
+		
+		
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_VQZW86_FAKESCRIPT))
+function SCRIPT_QQAG88_FAKESCRIPT() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = TextButton
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		
+		game.Players.LocalPlayer.PlayerGui.ScreenGui["Box"]:Remove()
+		game.Players.LocalPlayer.PlayerGui.ScreenGui["OpenAndClose"]:Remove()
+		game.Players.LocalPlayer.PlayerGui.ScreenGui["TextLabel"]:Remove()
+		
+		
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_QQAG88_FAKESCRIPT))
+function SCRIPT_KJOV68_FAKESCRIPT() -- OpenAndClose.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = OpenAndClose
+	
+	Visible = game.Players.LocalPlayer.PlayerGui.ScreenGui.Box.Visible
+	
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+	
+	
+		if game.Players.LocalPlayer.PlayerGui.ScreenGui.Box.Visible == false then	
+		
+			game.Players.LocalPlayer.PlayerGui.ScreenGui.Box.Visible = true
+	
+			game.Players.LocalPlayer.PlayerGui.ScreenGui.TextLabel.Visible = true
+			
+		
+		elseif game.Players.LocalPlayer.PlayerGui.ScreenGui.Box.Visible == true then
+			
+	
+			game.Players.LocalPlayer.PlayerGui.ScreenGui.Box.Visible = false
+		
+			game.Players.LocalPlayer.PlayerGui.ScreenGui.TextLabel.Visible = false
+		
+	
+	
+	
+		end
+	
+	end)
+	
+	
+	
+
+end
+coroutine.resume(coroutine.create(SCRIPT_KJOV68_FAKESCRIPT))
+function SCRIPT_TZXS89_FAKESCRIPT() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = ScreenGui
+	adsa
+
+end
+coroutine.resume(coroutine.create(SCRIPT_TZXS89_FAKESCRIPT))
